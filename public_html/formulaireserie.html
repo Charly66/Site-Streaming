@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Nouvelle série</title>
+        <link href="style/style1.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            Nouvelle série - <a href="home.html">Home</a>
+        </header>
+        <form  method="post">
+            <div>
+                <table>
+                    <tr >
+                        <td>Titre</td>
+                        <td><input type="text"/></td>
+                    </tr>
+                    <tr >
+                        <td>Synopsis</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr >
+                        <td>Pays</td>
+                        <td><select name="Pays">
+                                                    <option value="1">France</option>
+                                                    <option value="2">USA</option>
+                                                    <option value="3">UK</option>
+                                                    <option value="4">Nouvelle Zélande</option>
+                                                </select>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>Réalisateur</td>
+                        <td><select name="Realisateur">
+                                                <option value="1">Artur</option>
+                                                <option value="2">Thomas</option>
+                                                <option value="3">Valentin</option>
+                                                <option value="4">Victorien</option>
+                                            </select>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>Nombre de saisons</td>
+                        <td><input type="number" min="1"/></td>
+                    </tr>
+                    <tr >
+                        <td>Publié</td>
+                        <td><input type="checkbox" name="publie" value="OFF" /></td>
+                    </tr>
+                    <tr >
+                        <td></td>
+                        <td><input type="submit" value="Valider" /></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+        <footer class="pied">Copyright 2016 Quicotte</footer>
+    </body>
+</html>
